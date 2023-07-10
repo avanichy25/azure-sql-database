@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "newapp94848",
+            "name": "newapp4848",
             "type": "Microsoft.Web/sites",
             "apiVersion": "2022-03-01",
             "location": "[resourceGroup().location]",            
@@ -28,7 +28,7 @@
                 "[resourceId('Microsoft.Web/serverfarms', 'plan787878')]"
             ],
             "properties": {
-                "name": "newapp94848",
+                "name": "newapp4848",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', 'plan787878')]"
             }
         },
