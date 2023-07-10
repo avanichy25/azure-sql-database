@@ -111,10 +111,10 @@ stages:
               INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (3,'Tabs',300)
       
               END
-              IpDetectionMethod: IPAddressRange
-              StartIpAddress: 0.0.0.0
-              EndIpAddress: 0.0.0.0
-              DeleteFirewallRule: false
+          IpDetectionMethod: IPAddressRange
+          StartIpAddress: 0.0.0.0
+          EndIpAddress: 0.0.0.0
+          DeleteFirewallRule: false
 
       - task: AzureWebApp@1
         displayName: 'Azure Web App Deploy: newapp1094848'
